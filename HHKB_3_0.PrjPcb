@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=todo.Txt
+DocumentPath=EEPROM config\TUSB8042 EEPROM DATA.TXT
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,6 +140,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
+DocumentPath=todo.Txt
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document8]
 DocumentPath=2_hub.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EBRPOYRK
 
-[Document8]
+[Document9]
 DocumentPath=revisions.Txt
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=3_downstream_con.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SSPEEEFY
 
-[Document10]
+[Document11]
 DocumentPath=4_downstream_power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SWKJLHHO
 
-[Document11]
+[Document12]
 DocumentPath=5_power_supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WOKHXQPV
 
-[Document12]
+[Document13]
 DocumentPath=6_upstream_con.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WSPUUNCO
 
-[Document13]
+[Document14]
 DocumentPath=7_kbd.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -257,6 +274,36 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MAYADFKF
+
+[Document15]
+DocumentPath=EEPROM config explanation.Txt
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=37108E90-A349-47F7-A4F2-57E9D62AAFBD
+Description=PCBA
+AllowFabrication=0
+ParameterCount=0
+VariationCount=5
+Variation1=Designator=D701|UniqueId=\GPDVKIUU\OQRKBORT|Kind=1|AlternatePart= 
+Variation2=Designator=CON703|UniqueId=\GPDVKIUU\QFONTKEC|Kind=1|AlternatePart= 
+Variation3=Designator=CON701|UniqueId=\GPDVKIUU\LEUWCRRI|Kind=1|AlternatePart= 
+Variation4=Designator=CON702|UniqueId=\GPDVKIUU\YTSFSIEI|Kind=1|AlternatePart= 
+Variation5=Designator=D603|UniqueId=\PCCSUDFY\NNEPNWUF|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for HHKB_3_0\Design Rule Check - pcb.html

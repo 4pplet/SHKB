@@ -1,0 +1,23 @@
+ - Flip polarity on DN and DP for USBA-connectors
+ - Some other stuff... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

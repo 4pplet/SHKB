@@ -1,0 +1,13 @@
+Proto: all functionality verified ok.
+
+A1:
+- Debug diodes removed
+- EEPROM flash interface.
+- USB ports moved
+  - USB-c port moved 0.5mm right
+  - USB-A 1 and 2 moved 1mm right and 0.5mm in.
+- USB-C footprint improved
+  - no tenting on top layer
+- Removed unneccesary res-cap on Atmega
+- Added JP-support
+  - Pinout like hasu-controller
