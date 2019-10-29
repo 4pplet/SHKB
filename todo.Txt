@@ -1,1 +1,37 @@
+NGFF Pinout from here: https://pinoutguide.com/HD/M.2_NGFF_connector_pinout.shtml
+
+Kolla om 1.1V regulatorn räcker till
+Kolla om 3.3 regulatorn till SSD räcker till
+Kolla om kondingar till m.2 kontakt räcker till
+
+Vi följer inte kraven på decouling caps för analog-pinnarna på SATA-controlern just nu.
+
+Vilken port från controller ska in på vilken sata port
+Fixa 100 ohm SATA-traces
+Kolla SATA-polaritet, just nu bara satt till någon för att kunna test-routa
+Kolla exempel-firmware polariter, vill kunna köra den.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
