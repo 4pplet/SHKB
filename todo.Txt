@@ -10,6 +10,10 @@ Vilken port från controller ska in på vilken sata port
 Fixa 100 ohm SATA-traces
 Kolla SATA-polaritet, just nu bara satt till någon för att kunna test-routa
 Kolla exempel-firmware polariter, vill kunna köra den.
+Kolla upp frequency select på satacontroller.
+Kolla om vi kan använda 24mhz kristall, kanske kan köra samma kristall som på hubben
+
+Lägg till flipswitch som kan hålla SSD i sleep, alternativt som styr transistor eller spänningsregulator så SSD'n hålls avstängd.
 
 
 
