@@ -2,7 +2,10 @@ NGFF Pinout from here: https://pinoutguide.com/HD/M.2_NGFF_connector_pinout.shtm
 Do we need to modify HUB flash config, is tx rx swapped on port 3 DN/DP? It is not swapped for SATA-controller. I think it is was swapped for connector.
 
 
+DOUBLE CHECK SSD SWITCH SO IT WORKS AS I THINK!
 
+
+Add connector pinout on backside
 
 
 
