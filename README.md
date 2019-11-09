@@ -13,4 +13,6 @@ Prototype round 2. PCB produced and delivered. Need to order components and popu
 ## Teaser: 
 ![alt text](./readme-images/altium-3d.PNG "Altium 3D")
 
+![alt text](./readme-images/altium-3d_sata.PNG "Altium 3D")
+
 Thread on GH: https://geekhack.org/index.php?topic=93970.0
