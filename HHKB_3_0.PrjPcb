@@ -292,19 +292,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[ProjectVariant1]
-UniqueID=37108E90-A349-47F7-A4F2-57E9D62AAFBD
-Description=PCBA
-AllowFabrication=0
-ParameterCount=0
-VariationCount=5
-Variation1=Designator=D701|UniqueId=\GPDVKIUU\OQRKBORT|Kind=1|AlternatePart= 
-Variation2=Designator=CON703|UniqueId=\GPDVKIUU\QFONTKEC|Kind=1|AlternatePart= 
-Variation3=Designator=CON701|UniqueId=\GPDVKIUU\LEUWCRRI|Kind=1|AlternatePart= 
-Variation4=Designator=CON702|UniqueId=\GPDVKIUU\YTSFSIEI|Kind=1|AlternatePart= 
-Variation5=Designator=D603|UniqueId=\PCCSUDFY\NNEPNWUF|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for HHKB_3_0\Design Rule Check - pcb.html
 DItemRevisionGUID=
