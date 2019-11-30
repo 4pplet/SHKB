@@ -275,23 +275,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MAYADFKF
 
-[Document15]
-DocumentPath=EEPROM config explanation.Txt
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for HHKB_3_0\Design Rule Check - pcb.html
 DItemRevisionGUID=
