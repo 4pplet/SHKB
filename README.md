@@ -2,7 +2,7 @@
 A alternative controller for the HHKB with integrated SuperSpeed 5.0 Gbps USB 3.1 Hub.
 
 ## Status:
-Prototype round 2. PCB produced and delivered. Need to order components and populate one board for testing.
+Prototype round 2. PCB produced and delivered to testers, currently 5 PCB's being used, two HHKB JP, three regular ANSI.
 
 ## Some features:
 - 3 available USB3 ports, two external, one internal. Hub: TUSB8042
