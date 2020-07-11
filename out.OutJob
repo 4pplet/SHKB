@@ -15,9 +15,9 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=out.OutJob
 Description=
-TargetOutputMedium=Fab files
+TargetOutputMedium=3d
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
@@ -45,6 +45,8 @@ OutputMedium7=Print
 OutputMedium7_Type=Publish
 OutputMedium8=Schematic
 OutputMedium8_Type=Publish
+OutputMedium9=3d
+OutputMedium9_Type=GeneratedFiles
 OutputType1=Assembly
 OutputName1=Assembly Drawings
 OutputCategory1=Assembly
@@ -59,6 +61,7 @@ OutputEnabled1_OutputMedium5=1
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=0
 OutputEnabled1_OutputMedium8=0
+OutputEnabled1_OutputMedium9=0
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=15|PrintQuality=300|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
@@ -84,6 +87,7 @@ OutputEnabled2_OutputMedium5=0
 OutputEnabled2_OutputMedium6=0
 OutputEnabled2_OutputMedium7=0
 OutputEnabled2_OutputMedium8=0
+OutputEnabled2_OutputMedium9=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration2_Name1=OutputConfigurationParameter1
@@ -119,6 +123,7 @@ OutputEnabled3_OutputMedium5=0
 OutputEnabled3_OutputMedium6=0
 OutputEnabled3_OutputMedium7=0
 OutputEnabled3_OutputMedium8=0
+OutputEnabled3_OutputMedium9=0
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration3_Name1=OutputConfigurationParameter1
@@ -188,6 +193,7 @@ OutputEnabled4_OutputMedium5=0
 OutputEnabled4_OutputMedium6=0
 OutputEnabled4_OutputMedium7=0
 OutputEnabled4_OutputMedium8=0
+OutputEnabled4_OutputMedium9=0
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration4_Name1=OutputConfigurationParameter1
@@ -223,6 +229,7 @@ OutputEnabled5_OutputMedium5=0
 OutputEnabled5_OutputMedium6=0
 OutputEnabled5_OutputMedium7=1
 OutputEnabled5_OutputMedium8=0
+OutputEnabled5_OutputMedium9=0
 OutputDefault5=0
 PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=OutputConfigurationParameter1
@@ -232,7 +239,7 @@ OutputName6=Bill of Materials XLS
 OutputCategory6=Report
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -241,6 +248,7 @@ OutputEnabled6_OutputMedium5=0
 OutputEnabled6_OutputMedium6=1
 OutputEnabled6_OutputMedium7=0
 OutputEnabled6_OutputMedium8=0
+OutputEnabled6_OutputMedium9=0
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration6_Name1=ColumnNameFormat
@@ -266,7 +274,7 @@ OutputName7=Gerber Files
 OutputCategory7=Fabrication
 OutputDocumentPath7=pcb.PcbDoc
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -275,6 +283,7 @@ OutputEnabled7_OutputMedium5=0
 OutputEnabled7_OutputMedium6=0
 OutputEnabled7_OutputMedium7=0
 OutputEnabled7_OutputMedium8=0
+OutputEnabled7_OutputMedium9=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=39|MinusApertureTolerance=39|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=3|NumberOfDecimals=3|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16777220~1,16777219~1,16842751~1,16973835~1,16908304~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=39|PlusApertureTolerance=39|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
@@ -292,6 +301,7 @@ OutputEnabled8_OutputMedium5=0
 OutputEnabled8_OutputMedium6=0
 OutputEnabled8_OutputMedium7=0
 OutputEnabled8_OutputMedium8=1
+OutputEnabled8_OutputMedium9=0
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration8_Name1=OutputConfigurationParameter1
@@ -301,7 +311,7 @@ OutputName9=NC Drill Files
 OutputCategory9=Fabrication
 OutputDocumentPath9=pcb.PcbDoc
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
@@ -310,6 +320,7 @@ OutputEnabled9_OutputMedium5=0
 OutputEnabled9_OutputMedium6=0
 OutputEnabled9_OutputMedium7=0
 OutputEnabled9_OutputMedium8=0
+OutputEnabled9_OutputMedium9=0
 OutputDefault9=0
 Configuration9_Name1=OutputConfigurationParameter1
 Configuration9_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=3|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
@@ -318,7 +329,7 @@ OutputName10=Generates pick and place files
 OutputCategory10=Assembly
 OutputDocumentPath10=pcb.PcbDoc
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=0
 OutputEnabled10_OutputMedium3=0
@@ -327,6 +338,7 @@ OutputEnabled10_OutputMedium5=0
 OutputEnabled10_OutputMedium6=0
 OutputEnabled10_OutputMedium7=0
 OutputEnabled10_OutputMedium8=0
+OutputEnabled10_OutputMedium9=0
 OutputDefault10=0
 Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=False|GenerateTextFormat=True|ShowUnits=True|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|Filter= |FilterActive=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Version,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#18=Name:MFG,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#19=Name:MFGPN,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#20=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18
@@ -344,6 +356,7 @@ OutputEnabled11_OutputMedium5=0
 OutputEnabled11_OutputMedium6=0
 OutputEnabled11_OutputMedium7=2
 OutputEnabled11_OutputMedium8=0
+OutputEnabled11_OutputMedium9=0
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.99|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration11_Name1=OutputConfigurationParameter1
@@ -353,7 +366,7 @@ OutputName12=Bill of Materials CSV
 OutputCategory12=Report
 OutputDocumentPath12=
 OutputVariantName12=
-OutputEnabled12=1
+OutputEnabled12=0
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
@@ -362,6 +375,7 @@ OutputEnabled12_OutputMedium5=0
 OutputEnabled12_OutputMedium6=2
 OutputEnabled12_OutputMedium7=0
 OutputEnabled12_OutputMedium8=0
+OutputEnabled12_OutputMedium9=0
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 Configuration12_Name1=ColumnNameFormat
@@ -382,6 +396,24 @@ Configuration12_Name8=SortOrder
 Configuration12_Item8=Designator=Up
 Configuration12_Name9=VisibleOrder
 Configuration12_Item9=Designator=963|Value=103|Quantity=67|MFG=578|MFGPN=135|Footprint=153|Version=360|Description=117
+OutputType13=ExportSTEP
+OutputName13=Export STEP
+OutputCategory13=Export
+OutputDocumentPath13=pcb.PcbDoc
+OutputVariantName13=
+OutputEnabled13=1
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=0
+OutputEnabled13_OutputMedium6=0
+OutputEnabled13_OutputMedium7=0
+OutputEnabled13_OutputMedium8=0
+OutputEnabled13_OutputMedium9=1
+OutputDefault13=0
+Configuration13_Name1=OutputConfigurationParameter1
+Configuration13_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False
 
 [PublishSettings]
 OutputFilePath4=C:\Users\Stefan\Documents\git\SHKB\Project Outputs for HHKB_3_0\Fab files\
@@ -491,6 +523,19 @@ ShowComponentParameters8=1
 GlobalBookmarks8=0
 PDFACompliance8=Disabled
 PDFVersion8=Default
+OutputFilePath9=C:\Users\Stefan\Documents\GitHub\SHKB\Project Outputs for HHKB_3_0\2020-07-11\
+ReleaseManaged9=1
+OutputBasePath9=Project Outputs for HHKB_3_0
+OutputPathMedia9==CurrentDate
+OutputPathMediaValue9==CurrentDate
+OutputPathOutputer9=[Output Type]
+OutputPathOutputerPrefix9=
+OutputPathOutputerValue9=
+OutputFileName9=
+OutputFileNameMulti9=
+UseOutputNameForMulti9=1
+OutputFileNameSpecial9=
+OpenOutput9=1
 
 [GeneratedFilesSettings]
 RelativeOutputPath4=C:\Users\Stefan\Documents\git\SHKB\Project Outputs for HHKB_3_0\Fab files\
@@ -519,4 +564,14 @@ RelativeOutputPath7=C:\Users\Stefan\Documents\git\SHKB\Project Outputs for HHKB_
 OpenOutputs7=1
 RelativeOutputPath8=C:\Users\Stefan\Documents\git\SHKB\Project Outputs for HHKB_3_0\2020-02-14\Schematic.PDF
 OpenOutputs8=0
+RelativeOutputPath9=C:\Users\Stefan\Documents\GitHub\SHKB\Project Outputs for HHKB_3_0\2020-07-11\
+OpenOutputs9=1
+AddToProject9=1
+TimestampFolder9=0
+UseOutputName9=0
+OpenODBOutput9=0
+OpenGerberOutput9=0
+OpenNCDrillOutput9=0
+OpenIPCOutput9=0
+EnableReload9=0
 
