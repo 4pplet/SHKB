@@ -11,7 +11,7 @@ Prototype round 2. PCB produced and delivered to testers, currently 5 PCB's bein
 - Will need modification of hhkb case because of the usb-c connector
 
 ## Altium view of PCB
-![alt text](./readme-images/altium-3d.PNG "Altium 3D")
+![alt text](./readme-images/altium-3d.jpg "Altium 3D")
 
 Thread on GH: https://geekhack.org/index.php?topic=93970.0
 

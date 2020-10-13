@@ -1,5 +1,0 @@
-FIX USB CONNECTOR POSITIONS!
-
-Move USB-c 1mm out.
-MOVE CON301 .25mm left
-MOVE CON302 .5mm left
