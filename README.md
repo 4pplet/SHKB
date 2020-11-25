@@ -16,6 +16,4 @@ Prototype round 2. PCB produced and delivered to testers, currently 5 PCB's bein
 Thread on GH: https://geekhack.org/index.php?topic=93970.0
 
 ## Future work
-- Evaluate different USB-A connectors.
-- Investigate cheaper hubs, possibly with integrated usb-c mux and regulators.
-- Investigate switching to ganged current limit to cut cost.
+- Perfect USB-port placement
