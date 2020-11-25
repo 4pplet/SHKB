@@ -5,7 +5,7 @@ A alternative controller for the HHKB with integrated SuperSpeed 5.0 Gbps USB 3.
 Prototype round 2. PCB produced and delivered to testers, currently 5 PCB's being used, two HHKB JP, three regular ANSI.
 
 ## Some features:
-- 3 available USB3 ports, two external, one internal. Hub: TUSB8042
+- 3 available USB3 ports, two external, one internal. Hub: TUSB8042A
 - ATMEGA32U4 for keyboard firmware (TMK/QMK/VIA), uses current implementations for HHKB
 - 900mA per port current limit on each downstream port using TPS2552D
 - Will need modification of hhkb case because of the usb-c connector
