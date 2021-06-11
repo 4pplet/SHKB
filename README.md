@@ -6,7 +6,8 @@ A alternative controller for the HHKB with integrated SuperSpeed 5.0 Gbps USB 3.
 - 2021-03-16: New proto-run being made with some changed components better suited for manufacturing and connectors that better fits custom projects.
 
 ## **Note:**
-- **Rev B needs rework for USB-A connectors, possible compoent change for the USB-A connectors.**
+- **Rev B needs rework for USB-A connectors, possible compoent change for the USB-A connectors. Work in progress.**
+- Rev A is tested and works properly.
 
 ## Some features:
 - 3 available USB3 ports, two external, one internal. Hub: TUSB8042A
