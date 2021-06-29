@@ -260,7 +260,7 @@ DocumentUniqueId=WSPUUNCO
 
 [Parameter1]
 Name=Revision
-Value=B1
+Value=B2
 
 [Parameter2]
 Name=ProjectTitle
