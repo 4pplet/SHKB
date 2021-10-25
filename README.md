@@ -17,9 +17,9 @@ A alternative controller for the HHKB with integrated SuperSpeed 5.0 Gbps USB 3.
 - Will need modification of hhkb case because of the usb-c connector
 
 ## Altium view of PCB
-![alt text](./readme-images/rev_b2.jpg "Altium 3D")
+![alt text](./readme-images/rev_b3.jpg "Altium 3D")
 
 Thread on GH: https://geekhack.org/index.php?topic=93970.0
 
 ## Future work
-- Test and verify revision B2.
+- Test and verify revision B3.
