@@ -12,3 +12,7 @@ Project Outputs for HHKB_3_0/
 \.DS_Store
 *.LOG
 Project Outputs for shkb/*
+PCB/Lite_c/Project Outputs for shkb_lite/*
+PCB/Lite_mini/Project Outputs for shkb_lite/*
+PCB/Lite_c/Project Outputs for shkb_lite_c/*
+PCB/Lite_mini/Project Outputs for shkb_lite_mini/*
