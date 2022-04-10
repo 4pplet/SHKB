@@ -11,6 +11,10 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - 2021-03-16: New proto-run being made with some changed components better suited for manufacturing and connectors that better fits custom projects.
 - 2021-06-29: New proto-run being made with fixed issues on the USB-A connectors introduced in revision B1. Minor trace-tweaks and a new inductor for the 1.1v regulator.
 
+## Status - Lite (USB 2.0):
+- 2022-03-16: Initial prototype round ordered for mini-version. Tested and one bug found. 
+- 2022-04-10: Issue in A1 have been fixed and A2 files have been released. Patch done in A2 have been tested on A1 prototypes.
+
 ## **Note - Full (USB3.1):**
 - **Rev B is a work in progress. Base functionality is tested. Need to do long term testing and verify USB 3.0 speeds and reliability.** But it seems to work properly. Some compatibility issues with cables and usb-docks have been reported. I will look into this.
 
@@ -20,23 +24,22 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - 900mA per port current limit on each downstream port using TPS2552D
 - Will require modification of hhkb case because of the usb-c connector
 
-## PCB
-![alt text](./readme-images/shkb_b3.jpg "Altium 3D")
-
-## Future work Full (USB3.1)
-- Fully test and verify revision B3.
-
-## Status - Lite (USB 2.0):
-- 2022-03-16: Initial prototype round ordered for mini-version. Tested and one bug found. 
-- 2022-04-10: Issue in A1 have been fixed and A2 files have been released. Patch done in A2 have been tested on A1 prototypes.
-
 ## Features - Lite (USB 2.0):
 - 2 external USB2 ports, one internal. The internal port is unprotected, so use with care. HUB: FE1.1
 - ATMEGA32U4 for keyboard firmware (TMK/QMK/VIA), uses current implementations for HHKB
 - Per port current limit on each downstream port using MIC2026-2
 - Drop-in replacement for the OG controller
 
-## PCB
+## Future work - Full (USB3.1)
+- Fully test and verify revision B3.
+
+## Future work - Lite (USB2.0)
+- Do some long term testing and make available at 4pplet.com
+
+## PCB - Full
+![alt text](./readme-images/shkb_b3.jpg "Altium 3D")
+
+## PCB - Lite
 ![alt text](./readme-images/shkb_lite_mini_a2.jpg "Altium 3D")
 
 ## Build guide SHKB Full
