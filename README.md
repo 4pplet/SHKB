@@ -25,7 +25,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Will require modification of hhkb case because of the usb-c connector
 
 ## Features - Lite (USB 2.0):
-- 2 external USB2 ports, one internal. The internal port is unprotected, so use with care. HUB: FE1.1
+- 2 external USB2 ports. HUB: FE1.1
 - ATMEGA32U4 for keyboard firmware (TMK/QMK/VIA), uses current implementations for HHKB
 - Per port current limit on each downstream port using MIC2026-2
 - Drop-in replacement for the OG controller
