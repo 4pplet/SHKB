@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Job Group
 Description=
 TargetOutputMedium=2D prints
 VariantName=[No Variations]
@@ -48,7 +48,7 @@ OutputMedium8_Type=GeneratedFiles
 OutputType1=Assembly
 OutputName1=Assembly Drawings
 OutputCategory1=Assembly
-OutputDocumentPath1=shkb_lite_mini.PcbDoc
+OutputDocumentPath1=shkb_lite_mini_bt.PcbDoc
 OutputVariantName1=
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -73,7 +73,7 @@ PcbPrintPreferences1=
 OutputType2=Final
 OutputName2=Final Artwork Prints
 OutputCategory2=Fabrication
-OutputDocumentPath2=shkb_lite_mini.PcbDoc
+OutputDocumentPath2=shkb_lite_mini_bt.PcbDoc
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -142,7 +142,7 @@ PcbPrintPreferences2=SubsititueFont_Default=True|SubsititueFont_Serif=True|Subsi
 OutputType3=PCB 3D Print
 OutputName3=PCB 3D Print
 OutputCategory3=Documentation
-OutputDocumentPath3=shkb_lite_mini.PcbDoc
+OutputDocumentPath3=shkb_lite_mini_bt.PcbDoc
 OutputVariantName3=
 OutputEnabled3=1
 OutputEnabled3_OutputMedium1=0
@@ -160,7 +160,7 @@ Configuration3_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=63132320|View
 OutputType4=Gerber
 OutputName4=Gerber Files
 OutputCategory4=Fabrication
-OutputDocumentPath4=shkb_lite_mini.PcbDoc
+OutputDocumentPath4=shkb_lite_mini_bt.PcbDoc
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
@@ -195,7 +195,7 @@ Configuration5_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType6=NC Drill
 OutputName6=NC Drill Files
 OutputCategory6=Fabrication
-OutputDocumentPath6=shkb_lite_mini.PcbDoc
+OutputDocumentPath6=shkb_lite_mini_bt.PcbDoc
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -212,7 +212,7 @@ Configuration6_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType7=Pick Place
 OutputName7=Generates pick and place files
 OutputCategory7=Assembly
-OutputDocumentPath7=shkb_lite_mini.PcbDoc
+OutputDocumentPath7=shkb_lite_mini_bt.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -229,7 +229,7 @@ Configuration7_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|Ge
 OutputType8=BOM_PartType
 OutputName8=Bill of Materials CSV
 OutputCategory8=Report
-OutputDocumentPath8=shkb_lite_mini.PcbDoc
+OutputDocumentPath8=shkb_lite_mini_bt.PcbDoc
 OutputVariantName8=
 OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
@@ -263,7 +263,7 @@ Configuration8_Item9=Designator=963|Value=103|Quantity=67|Footprint=153|Version=
 OutputType9=ExportSTEP
 OutputName9=Export STEP
 OutputCategory9=Export
-OutputDocumentPath9=shkb_lite_mini.PcbDoc
+OutputDocumentPath9=shkb_lite_mini_bt.PcbDoc
 OutputVariantName9=
 OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
@@ -280,7 +280,7 @@ Configuration9_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 OutputType10=PDF3D
 OutputName10=PDF3D
 OutputCategory10=Documentation
-OutputDocumentPath10=shkb_lite_mini.PcbDoc
+OutputDocumentPath10=shkb_lite_mini_bt.PcbDoc
 OutputVariantName10=
 OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
@@ -299,7 +299,7 @@ Configuration10_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|
 [PublishSettings]
 OutputFilePath4=C:\Users\Stefan\Documents\GitHub\SHKB\Project Outputs for shkb\2021-06-24\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for shkb_lite_mini
+OutputBasePath4=Project Outputs for shkb_lite_mini_bt
 OutputPathMedia4==CurrentDate
 OutputPathMediaValue4==CurrentDate
 OutputPathOutputer4=[Output Type]
@@ -312,7 +312,7 @@ OutputFileNameSpecial4=
 OpenOutput4=0
 OutputFilePath5=C:\Users\Stefan\Documents\git\SHKB\Project Outputs for HHKB_3_0\Assembly drawing\out.PDF
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for shkb_lite_mini
+OutputBasePath5=Project Outputs for shkb_lite_mini_bt
 OutputPathMedia5==CurrentDate
 OutputPathMediaValue5==CurrentDate
 OutputPathOutputer5=[Output Type]
@@ -339,7 +339,7 @@ PDFACompliance5=Disabled
 PDFVersion5=Default
 OutputFilePath6=C:\Users\Stefan Sundin\Documents\GitHub\SHKB\Project Outputs for HHKB_3_0\2020-12-04\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for shkb_lite_mini
+OutputBasePath6=Project Outputs for shkb_lite_mini_bt
 OutputPathMedia6==CurrentDate
 OutputPathMediaValue6==CurrentDate
 OutputPathOutputer6=[Output Type]
@@ -366,7 +366,7 @@ PDFACompliance6=Disabled
 PDFVersion6=Default
 OutputFilePath7=C:\Users\Stefan\Documents\git\SHKB\Project Outputs for HHKB_3_0\2020-02-14\Schematic.PDF
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for shkb_lite_mini
+OutputBasePath7=Project Outputs for shkb_lite_mini_bt
 OutputPathMedia7==CurrentDate
 OutputPathMediaValue7==CurrentDate
 OutputPathOutputer7=[Output Type]
@@ -393,7 +393,7 @@ PDFACompliance7=Disabled
 PDFVersion7=Default
 OutputFilePath8=C:\Users\Stefan Sundin\Documents\GitHub\SHKB\PCB\Lite_mini\Project Outputs for shkb_lite_mini\2022-03-16\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for shkb_lite_mini
+OutputBasePath8=Project Outputs for shkb_lite_mini_bt
 OutputPathMedia8==CurrentDate
 OutputPathMediaValue8==CurrentDate
 OutputPathOutputer8=
