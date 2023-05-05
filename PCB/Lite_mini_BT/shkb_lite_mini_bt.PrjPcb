@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for shkb_lite_mini_bt
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -215,12 +215,12 @@ DocumentPath=Project Outputs for shkb_lite_mini_bt\Design Rule Check - shkb_lite
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectTitle
-Value=SHKB Lite Mini
+Name=Revision
+Value=A1
 
 [Parameter2]
-Name=Revision
-Value=A2
+Name=ProjectTitle
+Value=SHKB Lite Mini BT
 
 [Configuration1]
 Name=Default Configuration
@@ -233,7 +233,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for shkb_lite_mini_bt
 
 [OutputGroup1]
 Name=Netlist Outputs
