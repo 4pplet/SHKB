@@ -210,13 +210,17 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DPROKQQC
 
-[Parameter1]
-Name=Revision
-Value=A2
+[GeneratedDocument1]
+DocumentPath=Project Outputs for shkb_lite_mini_bt\Design Rule Check - shkb_lite_mini_bt.html
+DItemRevisionGUID=
 
-[Parameter2]
+[Parameter1]
 Name=ProjectTitle
 Value=SHKB Lite Mini
+
+[Parameter2]
+Name=Revision
+Value=A2
 
 [Configuration1]
 Name=Default Configuration

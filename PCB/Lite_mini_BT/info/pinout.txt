@@ -1,0 +1,25 @@
+P0.06
+P0.08
+GND
+GND
+P0.17
+P0.20
+P0.22
+P0.24
+P1.00
+P0.11
+P1.04
+P1.06
+
+Brun - GND
+Röd - GND
+Orange - P0.06
+Gul - P0.08
+Turkos - P0.17
+Blå - P0.20
+Lila - P0.22
+Ljusblå - P0.24
+Vit - P1.00
+Svart - P0.11
+Brun - P1.04
+Röd + Orange - P1.06
