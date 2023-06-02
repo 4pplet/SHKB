@@ -54,6 +54,11 @@ The PCB is designed with some specific specs in mind:
 When placing an order, you'll need to specify the layer stackup, enter the layers in this order:
 ![alt text](./readme-images/JLC_stackup.jpg "JLC2313")
 
+### Update 2023-05-02.
+JLC are no longer offering the JLC2313 substrate. The closest according to their own calcullator seems to be the JLC04161H-2313 so I'd recommend trying that for JLC orders.
+
+![alt text](./readme-images/stackup_update.jpg "JLC04161H-2313")
+
 When having the PCBs produced, you'll also need to flash the on board EEPROM. I have prepared a config that works well in the EEPROM config folder in this repo. This can be flashed either using a external programmer or use the "TUSB80xx_EEPROM_Programmer". I am not allowed to share this software, but you can usually get access to it if you ask their support or ask in their forum. The config provided as a .txt can be directly loaded into the TI software and the EEPROM can be flashed without the use of a external programmer.
 
 ## Build guide SHKB Lite
