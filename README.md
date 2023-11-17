@@ -10,6 +10,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Prototype round 2 of Rev A. PCB produced and delivered to testers, currently 5 PCB's being used, two HHKB JP, three regular ANSI. So far working great.
 - 2021-03-16: New proto-run being made with some changed components better suited for manufacturing and connectors that better fits custom projects.
 - 2021-06-29: New proto-run being made with fixed issues on the USB-A connectors introduced in revision B1. Minor trace-tweaks and a new inductor for the 1.1v regulator.
+- Small production run planned sometime in the beginning of next year
 
 ## Status - Lite (USB 2.0):
 - 2022-03-16: Initial prototype round ordered for mini-version. Tested and one bug found. 
@@ -31,10 +32,11 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Drop-in replacement for the OG controller
 
 ## Future work - Full (USB3.1)
-- Fully test and verify revision B3.
+- Update rotations of component to match JLC.
+- Add a write protect header/solderjumper for write protect of the EEPROM.
 
 ## Future work - Lite (USB2.0)
-- Do some long term testing and make available at 4pplet.com
+- Possibly add the option for USB-C with a USB-C daughterboard/PCB.
 
 ## PCB - Full
 ![alt text](./readme-images/shkb_b3.jpg "Altium 3D")
