@@ -11,6 +11,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - 2021-03-16: New proto-run being made with some changed components better suited for manufacturing and connectors that better fits custom projects.
 - 2021-06-29: New proto-run being made with fixed issues on the USB-A connectors introduced in revision B1. Minor trace-tweaks and a new inductor for the 1.1v regulator.
 - Small production run planned sometime in the beginning of next year
+- 2024-06-20: New revision B4 with minor adjustments ordered and tested. Adds support for LQFP Atmega and adds write protect for EEPROM in default state.
 
 ## Status - Lite (USB 2.0):
 - 2022-03-16: Initial prototype round ordered for mini-version. Tested and one bug found. 
