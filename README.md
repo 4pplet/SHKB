@@ -56,6 +56,9 @@ The PCB is designed with some specific specs in mind:
 When placing an order, you'll need to specify the layer stackup, enter the layers in this order:
 ![alt text](./readme-images/JLC_stackup.jpg "JLC2313")
 
+Case modification needed for the full version:
+![alt text](./readme-images/case_mod_for_full_version.jpg "MOD")
+
 ### Update 2023-05-02.
 JLC are no longer offering the JLC2313 substrate. The closest according to their own calcullator seems to be the JLC04161H-2313 so I'd recommend trying that for JLC orders.
 
