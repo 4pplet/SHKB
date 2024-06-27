@@ -39,7 +39,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Possibly add the option for USB-C with a USB-C daughterboard/PCB.
 
 ## PCB - Full
-![alt text](./readme-images/shkb_b3.jpg "Altium 3D")
+![alt text](./readme-images/shkb_b4.jpg "Altium 3D")
 
 ## PCB - Lite
 ![alt text](./readme-images/shkb_lite_mini_a2.jpg "Altium 3D")
