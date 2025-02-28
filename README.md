@@ -4,7 +4,7 @@ A alternative controller for the HHKB pro 2 with integrated hub. The full-versio
 Thread on GH: https://geekhack.org/index.php?topic=93970.0
 
 ## Availability:
-As an option to DIY, I'll try and keep these available for purchase here: https://4pplet.com/ For DIY, the production files are avaliable in releases. The version with 3.1 HUB will not be available for now, the cost for production is too high now during the current silicon crisis/shortage.
+As an option to DIY, I'll try and keep these available for purchase here: https://4pplet.com/ For DIY, the production files are avaliable in releases.
 
 ## Status - Full (USB3.1):
 - Prototype round 2 of Rev A. PCB produced and delivered to testers, currently 5 PCB's being used, two HHKB JP, three regular ANSI. So far working great.
@@ -16,9 +16,6 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 ## Status - Lite (USB 2.0):
 - 2022-03-16: Initial prototype round ordered for mini-version. Tested and one bug found. 
 - 2022-04-10: Issue in A1 have been fixed and A2 files have been released. Patch done in A2 have been tested on A1 prototypes.
-
-## **Note - Full (USB3.1):**
-- **Rev B is a work in progress. Base functionality is tested. Need to do long term testing and verify USB 3.0 speeds and reliability.** But it seems to work properly. Some compatibility issues with cables and usb-docks have been reported. I will look into this.
 
 ## Features - Full (USB3.1):
 - 3 available USB3 ports, two external, one internal. Hub: TUSB8042A
@@ -32,10 +29,6 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Per port current limit on each downstream port using MIC2026-2
 - Drop-in replacement for the OG controller
 
-## Future work - Full (USB3.1)
-- Update rotations of component to match JLC.
-- Add a write protect header/solderjumper for write protect of the EEPROM.
-
 ## Future work - Lite (USB2.0)
 - Possibly add the option for USB-C with a USB-C daughterboard/PCB.
 
@@ -46,7 +39,6 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 ![alt text](./readme-images/shkb_lite_mini_a2.jpg "Altium 3D")
 
 ## Build guide SHKB Full
-The SHKB Full is designed with production at JLC in mind. This was much easier and more realistic when the project began, but with the current silicon shortage, it's next to impossible to get these made at a resonable cost, and many parts is out of stock at JLC.
 
 The PCB is designed to use this build up:
 ![alt text](./readme-images/JLC2313.jpg "JLC2313")
@@ -65,10 +57,6 @@ JLC are no longer offering the JLC2313 substrate. The closest according to their
 
 ![alt text](./readme-images/stackup_update.jpg "JLC04161H-2313")
 
-When having the PCBs produced, you'll also need to flash the on board EEPROM. This EEPROM contains the configuration for the USB-Hub. I have prepared a config that works well in the EEPROM config folder in this repo. This can be flashed either using a external programmer or use the "TUSB80xx_EEPROM_Programmer". I am not allowed to share this software, but you can usually get access to it if you ask their support or ask in their forum. The config provided as a .txt can be directly loaded into the TI software and the EEPROM can be flashed without the use of a external programmer. Revision B4 adds a header above the EEPROM that need to be shorted during programming, to disable write protection of the EEPROM.
-
-## Build guide SHKB Lite
-The lite version can more or less be ordered from JLC. I designed this with cost and ease of manufacturing as my main gooals. However, there is usually parts out of stock and for example, the JST connector used to connect the controller to the main HHKB PCB is often out of stock. You'll need to source it from some other supplier and solder it yourself, alternatively use some other manufacturer that can source all the componentes needed (like PCBWay, electrow etc).
-
+When having the SHKB Full PCBs produced, you'll also need to flash the on board EEPROM. This EEPROM contains the configuration for the USB-Hub. I have prepared a config that works well in the EEPROM config folder in this repo. This can be flashed either using a external programmer or use the "TUSB80xx_EEPROM_Programmer". I am not allowed to share this software, but you can usually get access to it if you ask their support or ask in their forum. The config provided as a .txt can be directly loaded into the TI software and the EEPROM can be flashed without the use of a external programmer. Revision B4 adds a header above the EEPROM that need to be shorted during programming, to disable write protection of the EEPROM.
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
