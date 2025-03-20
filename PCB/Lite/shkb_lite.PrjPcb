@@ -31,7 +31,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=Project Outputs for shkb_lite
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -193,10 +193,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UFPWWELT
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for shkb_lite\Design Rule Check - shkb_lite.html
-DItemRevisionGUID=
-
 [Parameter1]
 Name=ProjectTitle
 Value=SHKB Lite
@@ -216,7 +212,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for shkb_lite
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
