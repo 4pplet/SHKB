@@ -31,7 +31,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 - Drop-in replacement for the OG controller
 
 ## Future work - Lite (USB2.0)
-- Possibly add the option for USB-C with a USB-C daughterboard/PCB.
+- Improve and release USB-C Riser PCB.
 
 ## PCB - Full
 ![alt text](./readme-images/shkb_b4.jpg "Altium 3D")
