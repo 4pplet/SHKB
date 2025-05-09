@@ -16,6 +16,7 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 ## Status - Lite (USB 2.0):
 - 2022-03-16: Initial prototype round ordered for mini-version. Tested and one bug found. 
 - 2022-04-10: Issue in A1 have been fixed and A2 files have been released. Patch done in A2 have been tested on A1 prototypes.
+- 2025-05-09: Adds support for a USB-C riser PCB.
 
 ## Features - Full (USB3.1):
 - 3 available USB3 ports, two external, one internal. Hub: TUSB8042A
@@ -57,6 +58,6 @@ JLC are no longer offering the JLC2313 substrate. The closest according to their
 
 ![alt text](./readme-images/stackup_update.jpg "JLC04161H-2313")
 
-When having the SHKB Full PCBs produced, you'll also need to flash the on board EEPROM. This EEPROM contains the configuration for the USB-Hub. I have prepared a config that works well in the EEPROM config folder in this repo. This can be flashed either using a external programmer or use the "TUSB80xx_EEPROM_Programmer". I am not allowed to share this software, but you can usually get access to it if you ask their support or ask in their forum. The config provided as a .txt can be directly loaded into the TI software and the EEPROM can be flashed without the use of a external programmer. Revision B4 adds a header above the EEPROM that need to be shorted during programming, to disable write protection of the EEPROM.
+When having the SHKB Full PCBs produced, you'll also need to flash the on board EEPROM. This EEPROM contains the configuration for the USB-Hub. I have prepared a config that works well in the EEPROM config folder in this repo. This can be flashed either using a external programmer or use the "TUSB80xx_EEPROM_Programmer". I am not allowed to share this software, but you can usually get access to it if you ask the Texas Instruments support or ask in their forum. The config provided as a .txt can be directly loaded into the TI software and the EEPROM can be flashed without the use of a external programmer. Revision B4 adds a header above the EEPROM that need to be shorted during programming, to disable write protection of the EEPROM. I usually just put a pair of pliers into the header during flashing.
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
