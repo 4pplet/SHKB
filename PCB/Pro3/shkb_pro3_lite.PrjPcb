@@ -188,13 +188,17 @@ DocumentUniqueId=RDLFQAIX
 DocumentPath=Project Outputs for shkb_lite\Design Rule Check - shkb_lite.html
 DItemRevisionGUID=
 
-[Parameter1]
-Name=Revision
-Value=A1
+[GeneratedDocument2]
+DocumentPath=Project Outputs for shkb_pro3_lite\Design Rule Check - shkb_pro3_lite.html
+DItemRevisionGUID=
 
-[Parameter2]
+[Parameter1]
 Name=ProjectTitle
 Value=SHKB Pro3 Lite
+
+[Parameter2]
+Name=Revision
+Value=A1
 
 [Configuration1]
 Name=Default Configuration
